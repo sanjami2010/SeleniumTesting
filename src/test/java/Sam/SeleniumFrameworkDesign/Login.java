@@ -17,7 +17,7 @@ public class Login {
 		// driver.findElement(By.xpath("//a[text()='200']")).click();
 		for (int i = 1; i < driver.findElements(By.xpath("//*[@id=\"content\"]/div/ul/li")).size(); i++) {
 			String clickonlinks = Keys.chord(Keys.CONTROL, Keys.ENTER);
-			driver.findElements(By.xpath("//*[@id=\"content\"]/div/ul/li")).get(i).sendKeys(clickonlinks);
+			driver.findElements(By.xpath("//*[@id=\"content\"]/div/ul/li/a")).get(i).sendKeys(clickonlinks);
 		}
 	}
 }

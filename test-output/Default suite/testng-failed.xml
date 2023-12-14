@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Rahul.SeleniumFrameworkDesign.Login">
+      <class name="Sam.SeleniumFrameworkDesign.Login">
         <methods>
           <include name="verifyLoginWithValidCredentials"/>
         </methods>
-      </class> <!-- Rahul.SeleniumFrameworkDesign.Login -->
+      </class> <!-- Sam.SeleniumFrameworkDesign.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
